@@ -1,0 +1,32 @@
+body {
+    margin: 0 auto;
+}
+.calc-body {
+    width: 400px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+#display {
+    width: 95%;
+    height: 60px;
+    margin: 0 auto;
+    border: 1px solid lightblue;
+}
+.keys {
+    width: 75%;
+    margin: 50px auto;
+    border: 1px solid blue;
+}
+.keys span{
+    display: inline-block;
+    border: 1px solid lightseagreen;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+.right {
+    float: right;
+    height: 120px !important;
+}
