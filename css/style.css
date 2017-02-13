@@ -1,32 +1,70 @@
-body {
-    margin: 0 auto;
+* {
+    margin: 0px auto;
+    padding: 0 auto;
 }
-.calc-body {
-    width: 400px;
-    border: 2px solid gray;
-    border-radius: 10px;
-    margin: 100px auto;
+body {
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+.main-calc {
+    display: block;
+    background: #000000;
+    box-shadow: #5f5f5f 0px 0px 10px 1px;
+    border-radius: 5px;
+    width: 315px;
+    margin: 200px auto;
+    border: 0.5px solid grey;
+    padding: 15px 0;   
+}
+input {
+    color: #fff;
+    width: 56px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    margin: 2px 0;
+    background-color: #5f5f5f;
+    border: none;
+    outline: none;
+    transition: all 0.1s ease-in-out;
+    padding: 20px 0;
+    transition: 0.3s ease-in-out;
 }
 #display {
-    width: 95%;
-    height: 60px;
-    margin: 0 auto;
-    border: 1px solid lightblue;
+    background-color: #000;
+    padding: 0 20px;
+    width: 260px;
+    text-align: left;
+    font-size: 1.5em;
+    letter-spacing: 2px;
 }
-.keys {
-    width: 75%;
-    margin: 50px auto;
-    border: 1px solid blue;
+#clearAll, #clearLast {
+    width: 146px;
 }
-.keys span{
-    display: inline-block;
-    border: 1px solid lightseagreen;
-    width: 50px;
-    height: 50px;
-    padding: 5px;
-    margin: 5px;
+#zero {
+    width: 116px;
 }
-.right {
+#equal {
+    margin: 2px 6px 3px -2px;
     float: right;
-    height: 120px !important;
+    height: 124px;
+}
+.row {
+    text-align: center;
+    margin: 3px;
+    height: 60px;
+}
+.row:first-child {
+    width: 315px;
+    margin: 0 auto 20px;
+}
+.row:last-child {
+    height: 120px;
+}
+input:active {
+    background: -webkit-radial-gradient(circle, #8f8f8f, #5f5f5f, #3f3f3f); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle, #8f8f8f, #5f5f5f, #3f3f3f); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, #8f8f8f, #5f5f5f, #3f3f3f); /* For Fx 3.6 to 15 */
+    background: radial-gradient(circle, #8f8f8f, #5f5f5f, #3f3f3f); /* Standard syntax (must be last) */
 }
