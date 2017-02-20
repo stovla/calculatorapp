@@ -68,3 +68,10 @@ input:active {
     background: -moz-radial-gradient(circle, #8f8f8f, #5f5f5f, #3f3f3f); /* For Fx 3.6 to 15 */
     background: radial-gradient(circle, #8f8f8f, #5f5f5f, #3f3f3f); /* Standard syntax (must be last) */
 }
+#footer {
+    text-align: center;
+    color: #fff;
+}
+#footer a {
+    color: blue;
+}
